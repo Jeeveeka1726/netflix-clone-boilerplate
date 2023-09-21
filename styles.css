@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+#Logo{
+    height: 30px;
+    width: 90px;
+}
+
+.left-top{
+    padding: 5px;
+    color: white;
+}
+
+#right-top{
+   padding-left: 700px;    
+}
+
+.right-img{
+    padding: 3px;
+    padding-bottom: 40px;
+}
+
+#profile-picture{
+    height: 30px;
+    width: 30px;
+}
+
+header{
+    background-image: url("https://github.com/Jeeveeka1726/netflix-clone-boilerplate/blob/main/assets/Title-Image.png?raw=true");
+    background-size: 100% 100%;
+    max-width: 100%;
+    max-height: 100%;
+}   
+
+#Netflix_Symbol{
+    height: 40px;
+    width: 20px;
+    padding-top: 300px;
+    margin-left: 60px;
+}
+
+#Add{
+    background-color: white;
+    margin-left: 850px;
+}
+
+#word{
+    color: white;
+    padding: 5px;
+    
+}
+
+#maid-movie{
+    font-size: 7em;
+    margin-left: 55px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#button{
+    height: 40px;
+    width: 70px;
+    margin-left: 70px;
+}
+
+#button2{
+    height: 40px;
+    width: 120px;
+    margin-left: 15px;
+    background-color: rgba(150, 150, 150, 0.507);
+    color: white;
+}
+
+.headings{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+}
+
+.movies{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+footer{
+    padding: 60px;
+    margin-left: 35%;
+    
+
+}
+
+.icons{
+    background-color: white;
+}
+
+#randomNames{
+    color: gray;
+}
+
+#box{
+    border: solid gray;
+    border-radius: 1%;
+    padding: 5px;
+}
+
+
+
+
+
