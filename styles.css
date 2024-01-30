@@ -1,122 +1,238 @@
 *{
     margin: 0;
     padding: 0;
-}
+    font-family: 'Nunito Sans', sans-serif;
+    overflow-x: hidden;
 
+    
+}
 body{
     background-color: black;
 }
+p{
+    color: white;
+}
+#img1{
+    width: 100%;
+    height: 650px;
+    background-color: black;
+    
+}
+#img2{
+    width: 100px;
+    height: 25px;
+    position: relative;
+    bottom: 635px;
+    left: 50px;
+}
+#nav1{
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 660px;
+    left: 150px;
+    color: white;
+    font-family: Nunito Sans;
+    
+}
+#nav2{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: 1100px;
+    bottom: 680px;
+}
+#netflix_symbol{
+    
+    width: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 400px;
+}
+#show{
+    letter-spacing: 10px;
+    color: white;
+    position: absolute;
+    bottom: 335px;
+    left: 100px;    
+    
+}
 
-#Logo{
-    height: 30px;
+#maid{
+    font-size: 150px;
+    color: white;
+    position: absolute;
+    bottom: 165px;
+    left: 50px;
+}
+#playimage{
     width: 90px;
-}
-
-.left-top{
-    padding: 5px;
-    color: white;
-    
-}
-
-#right-top{
-    display:inline-block;
-    position: relative;
-    top: 5px;
-    left: 700px;    
-    
-}
-
-.right-img{
-    padding: 5px;
-    padding-bottom: 40px; 
-}
-
-.color{
-    filter:invert(100%)
-}
-
-#profile-picture{
-    height: 30px;
-    width: 30px;
-    display: inline-block;
-    position: relative;
-    top: 40px;
-}
-
-#header{
-    background-image: url("https://github.com/Jeeveeka1726/netflix-clone-boilerplate/blob/main/assets/Title-Image.png?raw=true");
-    background-size: 100% 100%;
-}   
-
-#Netflix_Symbol{
     height: 40px;
-    width: 20px;
-    padding-top: 300px;
-    margin-left: 60px;
+    background-color: white;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
 }
-
-#Add{
-    filter: invert(100%);
-    margin-left: 1200px;
-    margin-bottom: 50px;
-}
-
-#info{
-    filter: invert(100%);
-}
-
-#word{
-    color: white;
-    padding: 5px;
-    
-}
-
-#maid-movie{
-    font-size: 7em;
-    margin-left: 55px;
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-}
-
-#button{
+#infoimage{
+    width: 100px;
     height: 40px;
-    width: 70px;
-    margin-left: 70px;
+    background-color: white;
+    opacity: 0.3;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
 }
-
-#button2{
-    height: 40px;
-    width: 120px;
-    margin-left: 15px;
-    background-color: rgba(150, 150, 150, 0.507);
-    color: white;
+#content{
+    width: 230px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 120px;
+    left: 45px;
 }
-
-.headings{
+#see_again{
     color: white;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 50px;
-}
-
-.movies{
-    color: white;
+    width: 100px;
     display: flex;
     align-items: center;
-    margin-left: 50px;
+    position: absolute;
+    bottom: 80px;
+    left: 50px;
+}
+.movies{
+    position: relative;
+    bottom: 135px;
+    
+}
+#tile_component_1{
+    margin-left: 40px;
+}
+#tile_component_2{
+    margin-left: 220px;
+    position: relative;
+    bottom: 140px;
+}
+#tile_component_3{
+    margin-left: 470px;
+    position: relative;
+    bottom: 270px;
+}
+#tile_component_4{
+    margin-left: 710px;
+    position: relative;
+    bottom: 405px;
+
+}
+#tile_component_5{
+    margin-left: 950px;
+    position: relative;
+    bottom: 540px;
+
+}
+#heading{
+    color: white;
+    position: relative;
+    bottom: 650px;
+    left: 45px;
 }
 
+.top10{
+
+    display: flex;
+    position: relative;
+    bottom: 630px;
+    right: 20px;
+}
+#movie{
+    padding: 10px;
+    height: 200px;
+    display: flex;
+}
+#trend{
+    position: relative;
+    bottom: 600px;
+    left: 45px;
+}
+.trending{
+    width: 1400px;
+    display: flex;
+    position: relative;
+    bottom: 570px;
+    left: 45px;
+}
+#tc00{
+    width: 500px;
+}
+#tc01{
+    width: 500px;
+    position: relative;
+    right: 70px;
+}
+#tc02{
+    width: 500px;
+    position: relative;
+    right: 110px;
+}
+#tc03{
+    width: 500px;
+    position: relative;
+    right: 150px;
+}
+#tc04{
+    width: 500px; 
+    position: relative;
+    right: 180px;
+}
+#science{
+    position: relative;
+    bottom: 500px;
+    left: 45px;
+}
+.scific{
+    width: 1400px;
+    display: flex;
+    position: relative;
+    bottom: 470px;
+    left: 45px;
+}
+#tc0{
+    width: 500px;
+}
+#tc011{
+    width: 500px;
+    position: relative;
+    right: 70px;
+}
+#tc012{
+    width: 500px;
+    position: relative;
+    right: 110px;
+}
+#tc013{
+    width: 500px;
+    position: relative;
+    right: 150px;
+}
+#tc014{
+    width: 500px; 
+    position: relative;
+    right: 180px;
+}
 footer{
     padding: 60px;
     margin-left: 35%;
-    
+    width: 600px;
 
 }
 
 .icons{
-    filter: invert(100%);
-    padding: 5px;
+    background-color: white;
+    margin: 10px;
+    
+    
 }
 
 #randomNames{
@@ -128,98 +244,110 @@ footer{
     border-radius: 1%;
     padding: 5px;
 }
-
-#play{
-    position: relative;
-    bottom: 5px;
+#ten{
+    color: white;
+    visibility: hidden;
 }
-
-#more-info{
-    position: relative;
-    bottom: 7px;
-
-}
-#move-top{
-    position: relative;
-    bottom: 100px;
-}
-
-#spacing{
-    position: relative;
-    bottom: 100px;
-}
-
-@media (max-width:600px){
-    #Netflix_Symbol{
-        position: relative;
-        bottom: 150px;
-        height: 15px;
-        width: 20px;
-
+@media (max-width:425px){
+    #img1{
+        width: 450px;
     }
-    #word{
-        position: relative;
-        bottom: 150px;
-        font-size: 10px;
-
+    #nav1{
+        margin-left: 200px;
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
     }
-    #maid-movie{
-        font-size: 30px;
-        position: relative;
-        bottom: 150px;
+    #maid{
+        font-size: 50px;
+        margin-bottom: 100px;
     }
-    #header {
-        height: 300px;
-        width: 600px;
+    #netflix_symbol img{
+        visibility: hidden;
     }
-    #button{
-        position: relative;
-        bottom: 150px;
-        height: 20px;
-        width: 50px;
+    #show{
+        visibility: hidden;
     }
-    #play-button{
-        height: 10px;
-        width: 10px;
+    #content{
+        margin-bottom: 100px;
     }
-    #play{
-        font-size: 15px;
-        position: relative;
-        top: 1px;
+    #tile_component_3{
+        visibility: hidden;
     }
-    #button2{
-        position: relative;
-        bottom: 150px;
-        height: 20px;
-        width: 70px;
+    #tile_component_4{
+        visibility: hidden;
     }
-    #info{
-        height: 10px;
-        width: 10px;        
-    }
-    #more-info{
-        font-size: 10px;
-        position: relative;
-        top: 1px;
+    #tile_component_5{
+        visibility: hidden;
     }
     .movies{
         position: relative;
+        bottom: 300px;
+    }
+    #tile_component_1{
+        width: 200px;
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
-    }
-    .images{
         position: relative;
-        left: 100px;
-        height: 300px;
-        width: 700px;
-        padding: 15px;
+        right: 30px;
     }
-    .headings{
-        font-size: 3rem;
+    #tile_component_2{
+        width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        right: 30px;
     }
-    
+    #heading{
+        visibility: hidden;
+    }
+    #ten{
+        visibility: visible;
+        position: relative;
+        bottom: 2200px;
+    }
+    .top10{
+        width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #tc00{
+        width: 390px;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        right: 40px;
+    }
+    #tc01{
+        width: 450px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #tc02{
+        visibility: hidden;
+    }
+    #tc03{
+        visibility: hidden;
+    }
+    #tc04{
+        visibility: hidden;
+    }
+    #tc0{
+        width: 390px;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        right: 40px;
+    }
+    #tc011{
+        width: 450px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    footer{
+        position: relative;
+        right: 150px;
+    }
+
+
 }
-
-
-
